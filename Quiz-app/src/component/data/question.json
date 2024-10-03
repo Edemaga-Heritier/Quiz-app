@@ -1,0 +1,30 @@
+[
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Berlin", "Madrid", "Paris", "Lisbonne"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Qui a écrit 'Les Misérables' ?",
+      "options": ["Victor Hugo", "Émile Zola", "Albert Camus", "Jean-Paul Sartre"],
+      "answer": "Victor Hugo"
+    },
+
+    {
+      "question": "De quelle couleur sont les tulips?",
+      "options": ["Rouge", "Jaune", "Vert", "Blanc"],
+      "answer": "Rouge"
+
+    },
+    {
+      "question": "Qui est le chef de l'armée de Chine?",
+      "options": ["Mao Zedong", "General Liu Xiaojing", "General Qin Shi Huang", "General Liu Shi Huang"],
+      "answer": "Mao Zedong"
+    },
+    {
+      "question": "Comment se nomme le grand-père de la famille de Voltaire?",
+      "options": ["Jules Verne", "Hugo de Lisle", "Gustave Eiffel", "Pierre-Auguste Renoir"],
+      "answer": "Jules Verne"
+    }
+  ]
+  
