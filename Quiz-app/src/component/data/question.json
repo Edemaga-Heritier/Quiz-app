@@ -25,6 +25,59 @@
       "question": "Comment se nomme le grand-père de la famille de Voltaire?",
       "options": ["Jules Verne", "Hugo de Lisle", "Gustave Eiffel", "Pierre-Auguste Renoir"],
       "answer": "Jules Verne"
+    },
+
+    {
+      "question": "Qui est la maître d'école de la Chine?",
+      "options": ["Lao Tzu", "Sun Tzu", "Zen Tzu", "Kung Fu Panda"],
+      "answer": "Lao Tzu"
+    },
+
+    {
+      "question": "De quelle couleur sont les fraises?",
+      "options": ["Rouge", "Jaune", "Vert", "Blanc"],
+      "answer": "Rouge"
+    },
+    {
+      "question": "Qui est la personne la plus connue pour sa proposition de développement de l'industrie?",
+      "options": ["Albert Einstein", "Charles Darwin", "Leonardo da Vinci", "Mahatma Gandhi"],
+      "answer": "Albert Einstein"
+    },
+
+    {
+      "question": "Quelle est la couleur du lion?",
+      "options": ["Blanc", "Noir", "Rouge", "Jaune"],
+      "answer": "Blanc"
+    },
+
+    {
+      "question": "Qui est le roi de France?",
+      "options": ["Louis XVI", "Marie Antoinette", "Louis XV", "Napoléon Bonaparte"],
+      "answer": "Louis XVI"
+    },
+
+    {
+      "question": "Qui est la première personne à avoir écrit une lettre?",
+      "options": ["Marie Antoinette", "Jules Verne", "Pierre-Auguste Renoir", "Jean-Paul Sartre"],
+      "answer": "Marie Antoinette"
+    },
+    {
+      "question": "Quelle est la couleur de l'orange?",
+      "options": ["Rouge", "Jaune", "Vert", "Blanc"],
+      "answer": "Jaune"
+    },
+
+    {
+      "question": "De quelle couleur sont les étoiles?",
+      "options": ["Rouge", "Jaune", "Vert", "Blanc"],
+      "answer": "Rouge"
+    },
+    {
+      "question": "Qui est la personne la plus connue pour sa proposition de développement de l'économie?",
+      "options": ["Marie Antoinette", "Jules Verne", "Pierre-Auguste Renoir", "Jean-Paul Sartre"],
+      "answer": "Marie Antoinette"
     }
+
+
   ]
   
