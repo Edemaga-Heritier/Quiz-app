@@ -1,3 +1,143 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Animation Fade-in */
+/* Animation d'apparition (fade-in) pour le conteneur du quiz */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation de glissement pour l'apparition de la question */
+@keyframes slideIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation Zoom-in */
+@keyframes bounceInFade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in {
+  animation: bounceInFade 0.6s ease-in-out;
+}
+
+
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Animation de surbrillance */
+@keyframes highlight {
+  0% { background-color: #ffffff; }
+  100% { background-color: #ffeb3b; }
+}
+
+.animate-highlight {
+  animation: highlight 0.5s ease-in-out infinite alternate;
+}
+
+/* Transition de la barre de progression */
+.transition-width {
+  transition: width 1s ease-in-out;
+}
+
+
+
+
+
+
+
+/* Animation d'agrandissement lors du clic */
+@keyframes bounceEffect {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px); /* L'élément monte légèrement */
+  }
+  60% {
+    transform: translateY(5px); /* L'élément descend */
+  }
+  100% {
+    transform: translateY(0); /* Retour à la position de départ */
+  }
+}
+
+.animate-click {
+  animation: bounceEffect 0.5s ease-in-out;
+}
+
+
+
+
+/* style pour le temps  */
+.timer {
+  transition: all 0.5s ease-in-out;
+}
+
+.normal {
+  color: #4a5568; /* Normal gray color */
+  font-size: 2rem;
+}
+
+.warning {
+  color: red;
+  font-size: 2.5rem; /* Increase the size */
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
