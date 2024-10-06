@@ -20,13 +20,7 @@ function HomePage() {
       >
         Commencer le Quiz
       </button>
-      <div className="mt-10">
-        <img
-          src="https://via.placeholder.com/300"
-          alt="Quiz Illustration"
-          className="w-64 h-64 rounded-lg shadow-lg animate-zoom-in"
-        />
-      </div>
+      
     </div>
   );
 }
