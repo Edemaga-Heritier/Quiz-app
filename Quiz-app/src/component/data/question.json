@@ -76,6 +76,12 @@
       "question": "Qui est la personne la plus connue pour sa proposition de développement de l'économie?",
       "options": ["Marie Antoinette", "Jules Verne", "Pierre-Auguste Renoir", "Jean-Paul Sartre"],
       "answer": "Marie Antoinette"
+    },
+
+    {
+      "question": "comment je m'appelle?",
+      "options": ["Edems", "Precieux", "Jovy", "Babaka"],
+      "answer": "Precieux"
     }
 
 

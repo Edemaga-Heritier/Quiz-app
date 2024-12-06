@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+.quiz-container.correct {
+  border: 2px solid green;
+  animation: correct-feedback 0.5s ease-in-out;
+}
+
+.quiz-container.incorrect {
+  border: 2px solid red;
+  animation: incorrect-feedback 0.5s ease-in-out;
+}
+
+.option.highlight {
+  background-color: lightgreen;
+}
+
+@keyframes correct-feedback {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes incorrect-feedback {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.95);
+  }
+}
+

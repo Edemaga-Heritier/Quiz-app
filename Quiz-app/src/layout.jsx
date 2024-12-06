@@ -12,6 +12,7 @@ export default function layout() {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [showResult, setShowResult] = useState(false);
     const [timeLeft, setTimeLeft] = useState(10);
+    const[isCorrect, setIsCorrect] =useState(null)
   
     useEffect(() => {
       if (timeLeft === 0) {
@@ -28,9 +29,16 @@ export default function layout() {
   
     const handleAnswer = (selectedOption) => {
       if (selectedOption === questions[currentQuestionIndex].answer) {
+       setIsCorrect(true)
         setScore(score + 1);
+      }else{
+         setIsCorrect(false)
       }
+     setTimeout(()=>{
+      setIsCorrect(null);
       handleNextQuestion();
+     },1000)
+      
     };
   
     const handleNextQuestion = () => {

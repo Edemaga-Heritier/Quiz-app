@@ -1,5 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 function Quiz({ question, options, handleAnswer }) {
   const [clicked, setClicked] = useState(false);
 
